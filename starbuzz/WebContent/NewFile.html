@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Provincia</title>
+</head>
+<body>
+
+<fieldset>
+<legend>Informazioni</legend>
+
+<label >Nome: <input type="text" id="nome"></label> <br>
+Cognome: <input type="text" name="cognome">
+</fieldset>
+
+<fieldset>
+<legend>Province</legend>
+<select name="Pronvince" multiple="multiple" size="8">
+<optgroup label="capoluogo">
+<option value="bo" selected="selected"> Bologna </option>
+</optgroup>
+
+<optgroup label="Province">
+
+    <option selected disabled>province</option>
+    <option value="1">br</option>
+    <option value="2">ao</option>
+    <option value="3">Three</option>
+    <option value="4">Four</option>
+    <option value="5">Five</option>
+
+</optgroup>
+</select>
+</fieldset>
+
+<form action="/login">
+
+
+Email: <input type="text" name="email"> <br>
+Password: <input type="password" name="pwd" minlength="8">
+<input type="text" name="email" placeholder="Your email">
+<input type="text" name="password" placeholder="Your Password">
+
+<input type="submit" value="submit"> <br>
+
+<input type="radio" name="qualcosa" value="boh"> qualcosa <br>
+<input type="radio" name="qualcosa" value="sempre boh"> altra cosa <br>
+
+<input type="checkbox" name="niente" value="non so"> check <br>
+<input type="checkbox" name="niente" value="altra cosa"> box <br>
+
+<select>
+    <option selected disabled>Choose here</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+    <option value="4">Four</option>
+    <option value="5">Five</option>
+</select>
+
+</form>
+
+
+
+
+</body>
+</html>

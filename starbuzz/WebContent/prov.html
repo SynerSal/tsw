@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Provincia</title>
+</head>
+<body>
+
+<h1>Province italiane</h1>
+<p>  Di seguito potrai scegliere tra alcune province italiane, questo è solo un test. </p>
+
+<fieldset>
+<legend> Informazioni </legend>
+
+Nome: <input type="text" name="name" value=""> <br>
+Cognome: <input type="text" name="cognome" value=""> <br>
+Email: <input type="text" name="email" value=""> <br>
+Password: <input type="password" name="psw" value="">
+
+<input type="submit" name="submit">
+</fieldset>
+
+<fieldset>
+<legend>Province</legend>
+<select name="Province" multiple="multiple" size="7">
+<optgroup label="Capoluogo">
+<option value="bo" selected="selected"> Bologna </option>
+</optgroup>
+
+<optgroup label="Province">
+
+<option value="mi" selected="selected"> Milano </option>
+<option value="ro" selected="selected"> Roma </option>
+<option value="na" selected="selected"> Napoli </option>
+<option value="ri" selected="selected"> Rimini </option>
+<option value="br" selected="selected"> Brescia </option>
+ 
+</optgroup>
+ </select>
+</fieldset>
+
+<p> choose one of the following (only one) </p>
+
+<input type="radio" name="regione" value="Lombardia"> Lombardia <br>
+<input type="radio" name="regione" value="Toscana"> Toscana <br>
+<input type="radio" name="regione" value="Campania"> Campania <br>
+
+ 
+ <p> Now you can choose multiple options! </p>
+ 
+ <label><input type="checkbox" name="regione" value="lombardia"> lombardia </label> <br>
+<label><input type="checkbox" name="regione" value="toscana"> toscana </label> <br>
+ <label><input type="checkbox" name="regione" value="campania"> campania </label> <br>
+
+<fieldset>
+<legend>Characters</legend>
+<p> Choose your character to continue! </p>
+<select>
+<option value="mario"> Mario </option>
+<option value="luigi"> Luigi </option>
+<option value="wario"> Wario </option>
+
+<input type="date">
+
+<label>Nome: <input type="text" id="nome"></label> <br>
+<label>Cognome: <input type="text" id="cognome"></label> <br>
+
+</select>
+
+</fieldset>
+
+
+
+
+</body>
+</html>
